@@ -6,8 +6,8 @@ import Script from "next/script";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Belajar UI with Next JS and Tailwind CSS",
-  description: "Belajar UI with Next JS and Tailwind CSS by Miftahul Ulum",
+  title: "Portfolio with Next JS and Tailwind CSS",
+  description: "Portfolio with Next JS and Tailwind CSS by Miftahul Ulum",
   authors: [{ name: "Miftahul Ulum" }],
   // authors: [{ name: 'Seb' }, { name: 'Josh', url: 'https://nextjs.org' }],
   creator: "Miftahul Ulum",
