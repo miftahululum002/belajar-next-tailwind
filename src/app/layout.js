@@ -8,7 +8,9 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata = {
   title: "Belajar UI with Next JS and Tailwind CSS",
   description: "Belajar UI with Next JS and Tailwind CSS by Miftahul Ulum",
-  author: "Miftahul Ulum",
+  authors: [{ name: "Miftahul Ulum" }],
+  // authors: [{ name: 'Seb' }, { name: 'Josh', url: 'https://nextjs.org' }],
+  creator: "Miftahul Ulum",
 };
 
 export default function RootLayout({ children }) {
