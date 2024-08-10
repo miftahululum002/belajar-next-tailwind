@@ -1,6 +1,7 @@
 import { Inter } from "next/font/google";
 import "./style.css";
 import Header from "./components/Header";
+import Script from "next/script";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -16,6 +17,7 @@ export default function RootLayout({ children }) {
       <body className={inter.className}>
         {children}
         <Header />
+        <Script src="/js/script.js" />
       </body>
     </html>
   );

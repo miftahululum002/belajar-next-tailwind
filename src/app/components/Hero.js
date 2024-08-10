@@ -1,4 +1,5 @@
 import Image from "next/image";
+import MiftahulImage from "/public/img/miftahul.png";
 export default function Hero() {
   return (
     <>
@@ -36,12 +37,9 @@ export default function Hero() {
             <div className="w-full self-end px-4 lg:w-1/2">
               <div className="relative mt-10 lg:right-0 lg:mt-9">
                 <Image
-                  src="/img/miftahul.png"
+                  src={MiftahulImage}
                   alt="Miftahul Ulum"
                   className="relative z-10 mx-auto max-w-full"
-                  width={300}
-                  height={300}
-                  priority
                 />
 
                 <span className="absolute top-0 left-1/2 -translate-x-1/2 md:scale-125">
