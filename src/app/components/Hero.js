@@ -26,9 +26,9 @@ export default function Hero() {
                   bukan!
                 </span>
               </p>
-
               <a
-                href="#"
+                target="_blank"
+                href="https://miftahululum002.github.io"
                 className="rounded-full bg-primary py-3 px-8 text-base font-semibold text-white transition duration-300 ease-in-out hover:opacity-80 hover:shadow-lg"
               >
                 Hubungi Saya
